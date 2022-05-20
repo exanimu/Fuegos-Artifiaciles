@@ -179,6 +179,18 @@ ul.show{
 
 }
 
+/*-------------------Movil-------------------*/
+@media screen and (max-width: 320px) {
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 4.9fr 2fr 0.4fr;
+        grid-template-areas: "header"
+                                            "contenido"
+                                            "contacto"
+                                            "footer";
+    }
+}
+
 /*--------------------------------------------------------*/
 
 /* -------------------- SLIDER ------------------------------   */
